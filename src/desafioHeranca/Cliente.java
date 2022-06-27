@@ -12,6 +12,9 @@ public abstract class Cliente implements Transacao{
         this.numeroConta = numeroConta;
     }
 
+    public Cliente() {
+    }
+
     String transacaoOk() {
         return "Transação realizada com sucesso!";
     }

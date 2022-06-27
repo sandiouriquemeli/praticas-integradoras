@@ -6,6 +6,10 @@ public class Basico extends Cliente{
         super(id, nome, numeroConta);
     }
 
+    public Basico() {
+
+    }
+
     @Override
     public void fazerDeposito() {
         System.out.println(transactNaoOk());

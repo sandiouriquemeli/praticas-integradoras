@@ -9,5 +9,8 @@ public class AppBanco {
         Executivo executivo01 = new Executivo(2L, "Pedro Silva", 987456);
         executivo01.fazerSaqueEmDinheiro();
 
+        Basico basico01 = new Basico();
+        basico01.consultaSaldo();
+
     }
 }
