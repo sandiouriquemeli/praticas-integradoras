@@ -6,7 +6,7 @@ public class AppBanco {
        Cobrador cobrador01 = new Cobrador(1L, "João Silva", 654987);
         cobrador01.fazerPagamentoDeServico();
 
-        Executivo executivo01 = new Executivo(2l, "Pedro Silva", 987456);
+        Executivo executivo01 = new Executivo(2L, "Pedro Silva", 987456);
         executivo01.fazerSaqueEmDinheiro();
 
     }
