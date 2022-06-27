@@ -1,4 +1,4 @@
-package desafioHeranca;
+package desafioBanco;
 
 public class Cobrador extends Cliente{
 

@@ -1,4 +1,4 @@
-package desafioHeranca;
+package desafioBanco;
 
 public abstract class Cliente implements Transacao{
 
