@@ -1,8 +1,8 @@
-package desafioBanco;
+package desafioBanco.Service;
 
 public interface Transacao {
 
-    public void fazerDeposito();
+    public String fazerDeposito();
 
     public void fazerTransferencia();
 
