@@ -6,5 +6,5 @@ public interface Transacoes {
     public void saqueEmDinheiro();
     public void deposito();
     public void transferencia();
-
 }
+
